@@ -1,0 +1,23 @@
+
+# continue
+
+i = 1
+while i <= 20:
+  if i % 2 == 0:
+    i = i + 1
+    continue;
+  print(i)
+  i += 1
+
+# output
+
+# 1
+# 3
+# 5
+# 7
+# 9
+# 11
+# 13
+# 15
+# 17
+# 19
